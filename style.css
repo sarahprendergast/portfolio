@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* logo and navigation bar */
+
+.navigation {
+  height: 5.625rem;
+  border-bottom: 4px solid #fd2fb5;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.site-name h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding-left: 0.625rem;
+  margin: auto;
+  position: relative;
+  top: 2.5rem;
+  left: 0.625rem;
+}
+
+.top ul {
+  list-style: none;
+  display: inline-flex;
+  margin: auto;
+}
+
+.top a {
+  padding: 1.875rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  flex-basis: auto;
+  position: relative;
+  top: 3.4375rem;
+  left: 100%;
+}
+
+.top a:hover {
+  color: #fd2fb5;
+}
+
+.top a:active {
+  color: black;
+  text-decoration: line-through;
+}
+
+/* about me section */
+
+.about {
+  padding-top: 5.75rem;
+}
+
+.about-container {
+  width: 100%;
+  min-height: 26.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  min-height: 12.5rem;
+  border: 4px dashed #fd2fb5;
+  padding: 1.25rem;
+  border-radius: 15px;
+  width: 50%;
+  height: 30%;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.content p {
+  justify-items: space-around;
+}
+
+.project-item {
+}
+
+/* footer */
+
+.footer {
+  height: 1.5625rem;
+  margin-top: 2.5rem;
+  margin-left: 0.625rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.copyright {
+  font-size: 1rem;
+}
